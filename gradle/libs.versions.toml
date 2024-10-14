@@ -56,3 +56,11 @@ hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+# Plugins defined by this project
+chuumong-android-application = { id = "chuumong.android.application" }
+chuumong-android-application-compose = { id = "chuumong.android.application.compose" }
+chuumong-android-feature = { id = "chuumong.android.feature" }
+chuumong-android-library = { id = "chuumong.android.library" }
+chuumong-android-library-compose = { id = "chuumong.android.library.compose" }
+chuumong-hilt = { id = "chuumong.android.hilt" }

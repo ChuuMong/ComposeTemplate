@@ -1,7 +1,7 @@
 plugins {
-    id("chuumong.android.application")
-    id("chuumong.android.application.compose")
-    id("chuumong.android.hilt")
+    alias(libs.plugins.chuumong.android.application)
+    alias(libs.plugins.chuumong.android.application.compose)
+    alias(libs.plugins.chuumong.hilt)
 }
 
 android {
