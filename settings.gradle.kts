@@ -25,6 +25,9 @@ dependencyResolutionManagement {
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(
     ":app",
+    ":core:ui",
+    ":feature:space",
+    ":feature:planet",
     ":feature:stars"
 )
 rootProject.name = "ComposeTemplate"

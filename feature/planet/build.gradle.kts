@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.chuumong.feature.stars"
+    namespace = "com.chuumong.feature.planet"
 }
 
 dependencies {
